@@ -33,7 +33,7 @@ export default function LinkTree() {
               return (
                 <a
                   class="lib-link"
-                  href={`http://shrl.io/${shortUrl}`}
+                  href={`http://shor-ty.herokuapp.com/${shortUrl}`}
                   target="_blank"
                   key={i}
                 >
@@ -43,7 +43,7 @@ export default function LinkTree() {
             })
           : "Add links to your Link Tree from your dashboard."}
         <div>
-          Page provided by <a href="https://shrl.io">Shorty</a>.
+          Page provided by <a href="https://shor-ty.herokuapp.com">Shorty</a>.
         </div>
       </div>
     </>
